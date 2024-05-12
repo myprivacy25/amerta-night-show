@@ -61,6 +61,8 @@ a.social {
     height: 550px;
 }
 
+/* Container Css Start  */
+
 .main-timeline {
 	width: 100%;
 	height: auto;
@@ -71,7 +73,7 @@ a.social {
 }
 .main-timeline .head-timeline {
 	font-size: 29px;
-	color: whites;
+	color: rgba(91, 14, 216, 0.767);
 	position: relative;
 	margin-bottom: 100px;
 	font-weight: 500;
@@ -87,16 +89,17 @@ a.social {
 	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
 }
 
-.container {
+
+.container-timeline {
 	width: 70%;
 	height: auto;
 	margin: auto 0;
 	position: relative;
 }
-.container ul {
+.container-timeline ul {
 	list-style: none;
 }
-.container ul::after {
+.container-timeline ul::after {
 	content: " ";
 	position: absolute;
 	width: 2px;
@@ -106,7 +109,7 @@ a.social {
 	transform: translateX(-50%);
 	background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
 }
-.container ul li {
+.container-timeline ul li {
 	width: 50%;
 	height: auto;
 	padding: 15px 20px;
@@ -117,10 +120,10 @@ a.social {
 	margin-bottom: 30px;
 	z-index: 99;
 }
-.container ul li:nth-child(4) {
+.container-timeline ul li:nth-child(4) {
 	margin-bottom: 0;
 }
-.container ul li .circle {
+.container-timeline ul li .circle {
 	position: absolute;
 	width: 20px;
 	height: 20px;
@@ -145,7 +148,7 @@ ul li:nth-child(even) .circle {
 	transform: translate(-50%, -50%);
 	left: -30px;
 }
-ul li .date {
+ul li .date-timeline {
 	position: absolute;
 	width: 130px;
 	height: 33px;
@@ -158,7 +161,7 @@ ul li .date {
 	font-size: 13px;
 	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
 }
-.container ul li:nth-child(odd) {
+.container-timeline ul li:nth-child(odd) {
 	float: left;
 	clear: right;
 	text-align: right;
@@ -167,12 +170,12 @@ ul li .date {
 ul li:nth-child(odd) .date {
 	right: 20px;
 }
-.container ul li:nth-child(even) {
+.container-timeline ul li:nth-child(even) {
 	float: right;
 	clear: left;
 	transform: translateX(30px);
 }
-ul li .heading {
+ul li .heading-timeline {
 	font-size: 17px;
 	color: rgb(91, 14, 216);
 }
