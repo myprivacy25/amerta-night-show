@@ -148,7 +148,7 @@ ul li:nth-child(even) .circle {
 	transform: translate(-50%, -50%);
 	left: -30px;
 }
-ul li .date-timeline {
+ul li .date-timeline-timeline {
 	position: absolute;
 	width: 130px;
 	height: 33px;
@@ -194,49 +194,49 @@ ul li a {
 
 
 @media only screen and (min-width:798px) and (max-width: 1100px) {
-	.container{
+	.container-timeline{
 		width: 80%;
 	}
 }
 
 @media only screen and (max-width: 798px) {
-	.container{
+	.container-timeline{
 		width: 70%;
 		transform: translateX(20px);
 	}
-	.container ul::after{
+	.container-timeline ul::after{
 		left: -40px;
 	}
-	.container ul li {
+	.container-timeline ul li {
 		width: 100%;
 		float: none;
 		clear: none;
 		margin-bottom: 80px;
 	}
-	.container ul li .circle{
+	.container-timeline ul li .circle{
 		left: -40px;
 		transform: translate(-50%, -50%);
 	}
-	.container ul li .date{
+	.container-timeline ul li .date-timeline{
 		left: 20px;
 	}
-	.container ul li:nth-child(odd) {
+	.container-timeline ul li:nth-child(odd) {
 		transform: translateX(0px);
 		text-align: left;
 	}
-	.container ul li:nth-child(even) {
+	.container-timeline ul li:nth-child(even) {
 		transform: translateX(0px);
 	}
 }
 
 @media only screen and (max-width: 550px) {
-	.container{
+	.container-timeline{
 		width: 80%;
 	}
-	.container ul::after{
+	.container-timeline ul::after{
 		left: -20px;
 	}
-	.container ul li .circle{
+	.container-timeline ul li .circle{
 		left: -20px;
 	}
 }
