@@ -1,18 +1,31 @@
-link {
-    display: none;
-}
-
 .banner {
     background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 20%;
     color: #fff;
-    width: 100%;
 }
 
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+}
 
-/* .tim img {
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
+
+.crop-img {
+    object-fit: cover;
+}
+
+.tim img {
     width: 250px;
     border: 10px solid #cccccc;
 }
@@ -25,7 +38,7 @@ a.social {
     border-radius: 50%;
     background-color: #333;
     line-height: 40px;
-} */
+}
 
 .client img {
     height: auto;
@@ -44,189 +57,3 @@ a.social {
     height: 550px;
 }
 
-/* Container Css Start  */
-
-/* .main-timeline {
-	width: 100%;
-	height: auto;
-	display: grid;
-	place-items: center;
-	background-color: rgb(245, 245, 245);
-	padding: 50px 0;
-} */
-.main-timeline .head-timeline {
-	font-size: 29px;
-	color: rgba(91, 14, 216, 0.767);
-	position: relative;
-	margin-bottom: 100px;
-	font-weight: 500;
-}
-.main-timeline .head-timeline::after {
-	content: " ";
-	position: absolute;
-	width: 50%;
-	height: 3px;
-	left: 50%;
-	bottom: -5px;
-	transform: translateX(-50%);
-	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
-}
-
-
-.container-timeline {
-	width: 70%;
-	height: auto;
-	margin: auto 0;
-	position: relative;
-}
-.container-timeline ul {
-	list-style: none;
-}
-.container-timeline ul::after {
-	content: " ";
-	position: absolute;
-	width: 2px;
-	height: 100%;
-	left: 50%;
-	top: 0;
-	transform: translateX(-50%);
-	background-image: linear-gradient(to bottom, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
-}
-.container-timeline ul li {
-	width: 50%;
-	height: auto;
-	padding: 15px 20px;
-	background-color: #fff;
-	border-radius: 8px;
-	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
-	position: relative;
-	margin-bottom: 30px;
-	z-index: 99;
-}
-.container-timeline ul li:nth-child(4) {
-	margin-bottom: 0;
-}
-.container-timeline ul li .circle {
-	position: absolute;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background-color: #e100ff7a;
-	top: 0;
-	display: grid;
-	place-items: center;
-}
-.circle::after{
-	content: ' ';
-	width: 12px;
-	height: 12px;
-	background-color: #7f00ff;
-	border-radius: 50%;
-}
-ul li:nth-child(odd) .circle {
-	transform: translate(50%, -50%);
-	right: -30px;
-}
-ul li:nth-child(even) .circle {
-	transform: translate(-50%, -50%);
-	left: -30px;
-}
-ul li .date-timeline {
-	position: absolute;
-	width: 130px;
-	height: 33px;
-	background-image: linear-gradient(to right,#7f00ff,#e100ff);
-	border-radius: 15px;
-	top: -45px;
-	display: grid;
-	place-items: center;
-	color: #fff;
-	font-size: 13px;
-	box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.318);
-}
-.container-timeline ul li:nth-child(odd) {
-	float: left;
-	clear: right;
-	text-align: right;
-	transform: translateX(-30px);
-}
-ul li:nth-child(odd) .date-timeline {
-	right: 20px;
-}
-.container-timeline ul li:nth-child(even) {
-	float: right;
-	clear: left;
-	transform: translateX(30px);
-}
-ul li .heading-timeline {
-	font-size: 17px;
-	color: rgb(91, 14, 216);
-}
-ul li p {
-	font-size: 13px;
-	color: #666;
-	line-height: 18px;
-	margin: 6px 0 4px 0;
-}
-ul li a {
-	font-size: 13px;
-	text-decoration: none;
-	color: rgb(18, 54, 214);
-	transition: all 0.3s ease;
-}
-
-
-@media only screen and (min-width:798px) and (max-width: 1100px) {
-	.container-timeline{
-		width: 80%;
-	}
-}
-
-@media only screen and (max-width: 798px) {
-	.container-timeline{
-		width: 70%;
-		transform: translateX(20px);
-	}
-	.container-timeline ul::after{
-		left: -40px;
-	}
-	.container-timeline ul li {
-		width: 100%;
-		float: none;
-		clear: none;
-		margin-bottom: 80px;
-	}
-	.container-timeline ul li .circle{
-		left: -40px;
-		transform: translate(-50%, -50%);
-	}
-	.container-timeline ul li .date-timeline{
-		left: 20px;
-	}
-	.container-timeline ul li:nth-child(odd) {
-		transform: translateX(0px);
-		text-align: left;
-	}
-	.container-timeline ul li:nth-child(even) {
-		transform: translateX(0px);
-	}
-}
-
-@media only screen and (max-width: 550px) {
-	.container-timeline{
-		width: 80%;
-	}
-	.container-timeline ul::after{
-		left: -20px;
-	}
-	.container-timeline ul li .circle{
-		left: -20px;
-	}
-}
-
-/* penampilan  */
-
-#penampilan {
-    display: flex;
-    text-align: justify;
-}
