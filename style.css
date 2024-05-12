@@ -84,7 +84,7 @@ a.social {
 	left: 50%;
 	bottom: -5px;
 	transform: translateX(-50%);
-	background-image: linear-gradient(to right, grey,whitesmoke);
+	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
 }
 
 /* Container Css Start  */
@@ -112,7 +112,7 @@ a.social {
 	width: 50%;
 	height: auto;
 	padding: 15px 20px;
-	background-color: #fff;
+	background-color: #BE9FEE;
 	border-radius: 8px;
 	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
 	position: relative;
