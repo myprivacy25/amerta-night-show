@@ -186,3 +186,11 @@ ul li a {
 	color: rgb(18, 54, 214);
 	transition: all 0.3s ease;
 }
+
+
+/* penampilan  */
+
+#penampilan {
+    display: flex;
+    text-align: justify;
+}
