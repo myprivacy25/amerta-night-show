@@ -10,14 +10,6 @@ link {
     color: whitesmoke;
 }
 
-.banner::after {
-    content: '';
-    background-color: #7f00ff;
-    opacity: .7%;
-    width: 100%;
-    height: 100vh;
-}
-
 .lingkaran {
     display: inline-block;
     border-radius: 50%;
