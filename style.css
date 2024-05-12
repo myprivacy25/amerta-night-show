@@ -84,7 +84,7 @@ a.social {
 	left: 50%;
 	bottom: -5px;
 	transform: translateX(-50%);
-	background-image: linear-gradient(to right, rgba(91, 14, 216, 0.767), rgba(238, 12, 200, 0.747));
+	background-image: linear-gradient(to right, grey,whitesmoke);
 }
 
 /* Container Css Start  */
