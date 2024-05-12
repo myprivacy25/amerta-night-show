@@ -3,8 +3,9 @@ link {
 }
 
 .banner {
-    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2018/11/dark-wallpapers.jpg") no-repeat center center;
+    background: url("assets/gambar/background/Thumbnile.PNG") no-repeat center center;
     background-size: cover;
+    filter: blur(10px);
     padding-top: 20%;
     padding-bottom: 20%;
     color: #fff;
