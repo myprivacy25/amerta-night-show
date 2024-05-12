@@ -46,14 +46,14 @@ a.social {
 
 /* Container Css Start  */
 
-.main-timeline {
+/* .main-timeline {
 	width: 100%;
 	height: auto;
 	display: grid;
 	place-items: center;
 	background-color: rgb(245, 245, 245);
 	padding: 50px 0;
-}
+} */
 .main-timeline .head-timeline {
 	font-size: 29px;
 	color: rgba(91, 14, 216, 0.767);
