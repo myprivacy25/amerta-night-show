@@ -127,7 +127,7 @@ a.social {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color: #e100ff7a;
+	background-color: whitesmoke;
 	top: 0;
 	display: grid;
 	place-items: center;
@@ -136,7 +136,7 @@ a.social {
 	content: ' ';
 	width: 12px;
 	height: 12px;
-	background-color: #7f00ff;
+	background-color: whitesmoke;
 	border-radius: 50%;
 }
 ul li:nth-child(odd) .circle {
