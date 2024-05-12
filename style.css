@@ -57,21 +57,3 @@ a.social {
     height: 550px;
 }
 
-@media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column;
-    }
-
-    .container, .container-fluid {
-        padding: 0 15px;
-    }
-
-    .card {
-        width: 100%; /* Membuat card menjadi full width */
-    }
-
-    .crop-img img {
-        width: 100%; /* Membuat gambar responsif */
-        height: auto;
-    }
-}
