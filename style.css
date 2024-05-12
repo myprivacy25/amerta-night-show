@@ -142,7 +142,7 @@ ul li:nth-child(odd) .date {
 	clear: left;
 	transform: translateX(30px);
 }
-ul li .heading {
+ul li .headingt {
 	font-size: 17px;
 	color: rgb(91, 14, 216);
 }
