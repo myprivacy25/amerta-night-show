@@ -112,8 +112,8 @@ a.social {
 	width: 50%;
 	height: auto;
 	padding: 15px 20px;
-	background-color: #DCD6E5;
-	border-radius: 8px;
+    background: rgb(220,214,229);
+    background: linear-gradient(90deg, rgba(220,214,229,1) 67%, rgba(255,255,255,1) 97%);	border-radius: 8px;
 	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
 	position: relative;
 	margin-bottom: 30px;
