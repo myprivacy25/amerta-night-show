@@ -7,7 +7,7 @@ link {
     background-size: cover;
     padding-top: 20%;
     padding-bottom: 20%;
-    color: #fff;
+    color: black;
 }
 
 .lingkaran {
@@ -17,7 +17,7 @@ link {
     margin: auto;
     height: 150px;
     color: #fff;
-    background-color: #dc3545;
+    background-color: #7f00ff;
 }
 
 .lingkaran i {
