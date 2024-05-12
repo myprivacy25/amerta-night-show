@@ -11,26 +11,8 @@ link {
     width: 100%;
 }
 
-.lingkaran {
-    display: inline-block;
-    border-radius: 50%;
-    width: 150px;
-    margin: auto;
-    height: 150px;
-    color: #fff;
-    background-color: #dc3545;
-}
 
-.lingkaran i {
-    position: relative;
-    top: 30px;
-}
-
-.crop-img {
-    object-fit: cover;
-}
-
-.tim img {
+/* .tim img {
     width: 250px;
     border: 10px solid #cccccc;
 }
@@ -43,7 +25,7 @@ a.social {
     border-radius: 50%;
     background-color: #333;
     line-height: 40px;
-}
+} */
 
 .client img {
     height: auto;
