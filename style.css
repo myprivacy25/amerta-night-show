@@ -148,7 +148,7 @@ ul li:nth-child(even) .circle {
 	transform: translate(-50%, -50%);
 	left: -30px;
 }
-ul li .date-timeline-timeline {
+ul li .date-timeline {
 	position: absolute;
 	width: 130px;
 	height: 33px;
@@ -167,7 +167,7 @@ ul li .date-timeline-timeline {
 	text-align: right;
 	transform: translateX(-30px);
 }
-ul li:nth-child(odd) .date {
+ul li:nth-child(odd) .date-timeline {
 	right: 20px;
 }
 .container-timeline ul li:nth-child(even) {
